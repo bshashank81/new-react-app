@@ -8,6 +8,7 @@ import TabPanel from "@mui/lab/TabPanel";
 import Tabs from "../components/molecules/Tabs";
 import HomePageContent from "./HomePageContent";
 import About from "./About";
+import Offers from "./Offers";
 
 const DefaultPage = () => {
   const [value, setValue] = useState("1");
@@ -19,10 +20,11 @@ const DefaultPage = () => {
   const tabs = [
     { label: "Home Page", value: "1", content: <HomePageContent /> },
     { label: "About", value: "2", content: <About /> },
+    { label: "Offers", value: "3", content: <Offers /> },
   ];
 
   return (
-    <Grid container direction="column">
+    <Grid container direction="column" >
       <Grid item>
         <Tabs tabs={tabs} />
       </Grid>

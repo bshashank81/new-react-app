@@ -23,14 +23,20 @@ const LabTabs = ({ tabs }) => {
   return (
     <Box sx={{ width: "100%", typography: "body1" }}>
       <TabContext value={value}>
-        <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
+        <Box
+          sx={{
+            borderBottom: 1,
+            borderColor: "divider",
+            background: "#DFE4E3",
+          }}
+        >
           <TabList onChange={handleChange} aria-label="lab API tabs example">
             {tabs.map((tab) => (
               <Tab
                 key={tab.value}
                 label={tab.label}
                 value={tab.value}
-                sx={{ textTransform: "none" }}
+                sx={{ textTransform: "none", fontStyle: "bold" }}
               />
             ))}
           </TabList>

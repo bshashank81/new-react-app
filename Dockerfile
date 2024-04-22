@@ -18,9 +18,11 @@ RUN npm run build
 
 # Use Nginx as base image for serving the static files
 FROM nginx:alpine
+WORKDIR /usr/share/nginx/html
+RUN rm -rf *
 
 # Copy built files from previous stage to Nginx directory
-COPY --from=build /app/build /usr/share/nginx/html
+COPY --from=build /app/build .
 
 # Expose port 80
 EXPOSE 80

@@ -1,6 +1,6 @@
 import { Grid, Typography } from "@mui/material";
 import React from "react";
-import SideImage from "../assets/SideImage.png";
+import CompanyImage from "../assets/CompanyImage.jpg";
 
 const About = () => {
   return (
@@ -24,11 +24,11 @@ const About = () => {
           </Grid>
           <Grid item>
             <Typography variant="body2">
-              Launced in 2015, Exclusive is South Asia’s premier online shopping
-              makterplace with an active presense in Bangladesh. Supported by
-              wide range of tailored marketing, data and service solutions,
-              Exclusive has 10,500 sallers and 300 brands and serves 3 millioons
-              customers across the region.{" "}
+              Launched in 2015, Exclusive is South Asia’s premier online
+              shopping makterplace with an active presense in Bangladesh.
+              Supported by wide range of tailored marketing, data and service
+              solutions, Exclusive has 10,500 sallers and 300 brands and serves
+              3 millioons customers across the region.{" "}
             </Typography>
           </Grid>
           <Grid item sx={{ paddingTop: "10px" }}>
@@ -40,7 +40,12 @@ const About = () => {
           </Grid>
         </Grid>
         <Grid item sx={{ paddingTop: "50px" }} xs={6}>
-          <img src={SideImage} alt="Side Image" height="500px" width="500px" />
+          <img
+            src={CompanyImage}
+            alt="Side Image"
+            height="500px"
+            width="500px"
+          />
         </Grid>
       </Grid>
     </Grid>

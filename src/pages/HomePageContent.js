@@ -13,6 +13,54 @@ const HomePageContent = () => {
         <iframe
           width="900"
           height="550"
+          src="https://www.youtube.com/embed/9kcT6dNe468?si=Bsy1RnpMQtp544_y"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </Grid>
+      <Grid item>
+        <iframe
+          width="900"
+          height="550"
+          src="https://www.youtube.com/embed/5X2m2sXtEig?si=BhWbbz0UY_st0mcD"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </Grid>
+      <Grid item>
+        <iframe
+          width="900"
+          height="550"
+          src="https://www.youtube.com/embed/KFJDuM2BlAU?si=cQGgFLRGriYcRT1T"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </Grid>
+      <Grid item>
+        <iframe
+          width="900"
+          height="550"
+          src="https://www.youtube.com/embed/apedYzyc_MI?si=f2f44O3-JCls7j6I"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </Grid>
+      <Grid item>
+        <iframe
+          width="900"
+          height="550"
           src="https://www.youtube.com/embed/i6ruGmiuUIg?si=IPqldRSPoOYSyQul"
           title="YouTube video player"
           frameborder="0"

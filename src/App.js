@@ -3,7 +3,7 @@ import DefaultPage from "./pages/DefaultPage";
 
 const App = () => {
   return (
-    <div>
+    <div sx={{ background: "#F4F5F9" }}>
       <DefaultPage />
     </div>
   );
